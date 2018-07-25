@@ -24,9 +24,13 @@ I use it when data sended in segments will be  of variable length.
 
 ![alt text](http://hcarrasco.cl/apps/protocols/string-segment.png)
 
+finnal message: ```<hc-ptcls;10010;temperature=30;speed=70;color=green;>```
+
 ##### 2) Bytes based message:
 I use it when data sended in segments will be always of a constant length.
 
 How we can't see the bytes, we represent the message as hexadecimal representation. Modern programming lenguajes provides functions to make this transformation (bytes to hex) easely. You can help you with a ascii table :)
 
 ![alt text](http://hcarrasco.cl/apps/protocols/bytes-segment.png)
+
+finnal message: ```48432D5054434C5331303031313033303730303530391020```
