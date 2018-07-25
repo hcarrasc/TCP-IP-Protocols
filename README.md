@@ -19,12 +19,12 @@ As you can see, my protocols are embeded in the TCP-IP protocol in the data sect
 
 I use it in two diferent ways based in a common structure:
 
-#####1) String based message:
+##### 1) String based message:
 I use it when data sended in segments will be  of variable length.
 
 ![alt text](http://hcarrasco.cl/apps/protocols/string-segment.png)
 
-#####2) Bytes based message:
+##### 2) Bytes based message:
 I use it when data sended in segments will be always of a constant length.
 
 How we can't see the bytes, we represent the message as hexadecimal representation. Modern programming lenguajes provides functions to make this transformation (bytes to hex) easely. You can help you with a ascii table :)
