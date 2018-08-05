@@ -1,4 +1,4 @@
-# TCP-IP-Protocols
+# Communication Protocols
 
 ### What is a communication protocol?
 Is a set of rules or sintaxis that allows two or more systems communicate and share data between them.
@@ -13,7 +13,7 @@ TCP/IP provides end-to-end connectivity specifying how data should be formatted,
 
 We abstract from the header, using any modern programming language and work directly on the content of the "data" section
 
-### My communication protocols 
+### My Internet communication protocols:
 
 As you can see, my protocols are embeded in the TCP-IP protocol in the data section.
 
@@ -34,3 +34,15 @@ How we can't see the bytes, we represent the message as hexadecimal representati
 ![alt text](http://hcarrasco.cl/apps/protocols/bytes-segment.png)
 
 finnal message: ```48432D5054434C5331303031313033303730303530391020```
+
+### Bluetooth protocols
+
+The wireless data exchange standard Bluetooth uses a variety of protocols. Core protocols are defined by the trade organization Bluetooth SIG. Additional protocols have been adopted from other standards bodies [[wikipedia.org](https://en.wikipedia.org/wiki/List_of_Bluetooth_protocols)]
+
+##### Logical link control and adaptation protocol (L2CAP): 
+It passes packets to either the Host Controller Interface (HCI) or on a hostless system, directly to the Link Manager/ACL link.
+
+
+
+
+
