@@ -9,7 +9,8 @@ Each message has a specific meanning, intended to obtain a response from a range
 TCP/IP provides end-to-end connectivity specifying how data should be formatted, addressed, transmitted, routed and received at the destination.
 
 ### How a TCP segment looks like?
-![alt text](http://hcarrasco.cl/apps/protocols/tcp-model-segment.png)
+
+<img src="http://hcarrasco.cl/apps/protocols/tcp-model-segment.png" width="450" height="208"/>
 
 We abstract from the header, using any modern programming language and work directly on the content of the "data" section
 
@@ -22,7 +23,7 @@ I use it in two diferent ways based in a common structure:
 ##### 1) String based message:
 I use it when data sended in segments will be  of variable length.
 
-![alt text](http://hcarrasco.cl/apps/protocols/string-segment.png)
+<img src="http://hcarrasco.cl/apps/protocols/string-segment.png" width="250" height="422"/>
 
 finnal message: ```<hc-ptcls;10010;temperature=30;speed=70;color=green;>```
 
@@ -31,7 +32,7 @@ I use it when data sended in segments will be always of a constant length.
 
 How we can't see the bytes, we represent the message as hexadecimal representation. Modern programming lenguajes provides functions to make this transformation (bytes to hex) easely. You can help you with a ascii table :)
 
-![alt text](http://hcarrasco.cl/apps/protocols/bytes-segment.png)
+<img src="http://hcarrasco.cl/apps/protocols/bytes-segment.png" width="350" height="230"/>
 
 finnal message: ```48432D5054434C5331303031313033303730303530391020```
 
