@@ -36,13 +36,26 @@ How we can't see the bytes, we represent the message as hexadecimal representati
 
 finnal message: ```48432D5054434C5331303031313033303730303530391020```
 
-### Bluetooth protocols
+### Bluetooth Protocols
 
 The wireless data exchange standard Bluetooth uses a variety of protocols. Core protocols are defined by the trade organization Bluetooth SIG. Additional protocols have been adopted from other standards bodies [[wikipedia.org](https://en.wikipedia.org/wiki/List_of_Bluetooth_protocols)]
 
 ##### Logical link control and adaptation protocol (L2CAP): 
 It passes packets to either the Host Controller Interface (HCI) or on a hostless system, directly to the Link Manager/ACL link.
 
+
+### Space Communication Protocols
+
+NASA article: [nasa.gov](https://www.nasa.gov/centers/ames/research/technology-onepagers/secure_space_communication.html)
+
+Communication protocol standards for space data systems: [Proceedings of the IEEE](https://ieeexplore.ieee.org/document/56941/) (Volume: 78, Issue: 7, **Jul 1990**)
+
+##### Disruption Tolerant Networking: 
+Communicating from Earth to any spacecraft is a complex challenge, largely due to the extreme distances involved. When data are transmitted and received across thousands and even millions of miles, the delay and potential for disruption or data loss is significant. Delay/Disruption Tolerant Networking (DTN) is NASA’s solution to reliable internetworking for space missions. [nasa.gov](https://www.nasa.gov/content/dtn)
+
+##### Protocols used by Curiosity land rover
+
+CCSDS.org: [Blue Books](https://public.ccsds.org/publications/BlueBooks.aspx)
 
 
 
